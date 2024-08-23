@@ -1,14 +1,16 @@
-import "./style/style.css"
+import React from 'react';
+import "./style/style.css";
 import Pictures from "./components/Pictures";
+import HomePage from "./pages/Homepage"
 
 function App() {
   return (
-    <div>
-      <h1>Image Gallery</h1>
+    
       <div>
+        <HomePage/>
         <Pictures/>
       </div>
-    </div>
+    
   );
 }
 
