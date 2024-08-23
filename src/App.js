@@ -1,12 +1,12 @@
-import "./style.css"
-import Card from "./components/Card/Card.jsx"
+import "./style/style.css"
+import Pictures from "./components/Pictures";
 
 function App() {
   return (
     <div>
       <h1>Image Gallery</h1>
       <div>
-        <Card/>
+        <Pictures/>
       </div>
     </div>
   );

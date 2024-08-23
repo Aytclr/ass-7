@@ -1,9 +1,10 @@
-import data from "../../data.js"
+import data from "../helper/data.js"
+import "../style/style.css"
 
 
 
 
-const Card = () =>{
+const Pictures = () =>{
     console.log(data);
     return(
         <div>
@@ -14,7 +15,7 @@ const Card = () =>{
                         <div key={i}>
 
                           <h1 className="cardStyleTile" >{item.photographer}</h1>  
-                          <img src={item.large} alt="" className="cardStyles.images" />
+                          <img src={item.src["large"]} alt="" className="pictures" />
 
                         </div>
                     )
@@ -26,4 +27,4 @@ const Card = () =>{
 
 
 
-export default Card;
+export default Pictures;
