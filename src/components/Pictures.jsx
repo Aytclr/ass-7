@@ -8,12 +8,12 @@ import data from "../helper/data.js"
 const Pictures = (props) =>{
     // console.log(data);
     return(
-        <div>
+        <div className="container">
             {
                 data.map((item,i)=>{
                    
                     return(
-                        <div className="container">
+                        
                             <div className="picture" key={i} >
                             
                                 <div className="imageContainer">
@@ -23,7 +23,7 @@ const Pictures = (props) =>{
                                 
                             </div>
 
-                        </div> 
+                        
                     )
                 })
             }
