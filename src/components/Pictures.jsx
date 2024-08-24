@@ -1,5 +1,5 @@
-
-const Pictures =()=>{
+import "../style/style.css"
+const Pictures =({pht,src})=>{
     return(
         <div className="photo-wrapper">
             <div className="image-container"><img className="image" src={src} alt="" />
@@ -9,3 +9,5 @@ const Pictures =()=>{
 
     )
 }
+
+export default Pictures;
